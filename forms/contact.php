@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->Host = 'fmme.dz';  // IMAP server address (ensure it's correct for your email provider)
     $mail->SMTPAuth = true;
     $mail->Username = 'contact@fmme.dz';  // Your email address
-    $mail->Password = 'snsdFmm@2013';  // Your email password (or application-specific password)
+    $mail->Password = '';  // Your email password (or application-specific password)
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Use STARTTLS encryption
     $mail->Port = 587;  // SMTP port for unencrypted connection (try 587 or 465)
 
