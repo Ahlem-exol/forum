@@ -1,19 +1,16 @@
 ### Step-by-Step Instructions:
 
 1. **Prepare XAMPP Folder:**
-
    - Place your FMME application in the `htdocs` folder inside your XAMPP directory. For example, if you have a folder named `fmme`, it should be placed in:
      ```
      C:\xampp\htdocs\fmme
      ```
 
 2. **Install Composer (If Not Already Installed):**
-
    - If you haven’t installed Composer yet, download and install it from [composer.org](https://getcomposer.org/).
    - Ensure that Composer is globally available via the command line.
 
 3. **Run Composer Command to Install PHPMailer:**
-
    - Open the command line (CMD or PowerShell) and navigate to the FMME directory:
      ```
      cd C:\xampp\htdocs\fmme
